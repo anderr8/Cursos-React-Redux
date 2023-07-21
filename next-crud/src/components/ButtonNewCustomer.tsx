@@ -5,7 +5,7 @@ interface ButtonProps {
 }
 
 export default function Button(props: ButtonProps) {
-    // Não funcionou usando um acor padrão e nem as 3 colores
+    // Não funcionou usando uma cor padrão e nem as 3 colores
     const color = props.color ?? 'gray'
     console.log(color)
     return (

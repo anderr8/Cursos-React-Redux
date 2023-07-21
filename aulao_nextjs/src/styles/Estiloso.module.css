@@ -1,0 +1,16 @@
+.vermelho {
+    /* height: 100vh; */
+    height: 100%;
+    background-color: #c21b1b;
+    color: black;
+}
+
+.vermelho h1 {
+    margin: 0;
+}
+
+.vermelho a {
+    color: white;
+    /* text-decoration: underline; */
+    text-decoration: none;
+}

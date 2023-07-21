@@ -1,0 +1,14 @@
+
+.button {
+    font-size: 1.4rem;
+    border: 3px solid red;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: bisque;
+}
+
+.number {
+    font-size: 2.1rem;
+}

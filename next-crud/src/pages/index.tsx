@@ -10,10 +10,10 @@ import Fill from '../components/Fill';
 export default function Home() {
     
     const clientes = [
-        new Cliente('Gigi', 27, '4'),
-        new Cliente('Anderson', 44, '1' ),
-        new Cliente('Jéssica', 34, '2'),
-        new Cliente('Fernanda', 42, '3')
+        new Cliente('Gigi', 27, '1'),
+        new Cliente('Anderson', 44, '2' ),
+        new Cliente('Jéssica', 34, '3'),
+        new Cliente('Fernanda', 42, '4')
     ]
 
 

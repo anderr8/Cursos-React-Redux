@@ -1,19 +1,19 @@
 interface ButtonProps {
-    color?: 'green' | 'blue' | 'gray'
+    colors?: 'green' | 'blue' | 'gray'
     className?: string
-    children: any
+    children:any
+    onClick?: () => void
 }
 
 export default function Button(props: ButtonProps) {
-    // Não funcionou usando um acor padrão e nem as 3 colores
-    const color = props.color ?? 'gray'
-    console.log(color)
+    const colors = props.colors ?? 'gray'
     return (
-        <button className={`
-            bg-gradient-to-r from-blue-400 to-blue-700
-            text-white px-4 py-2 rounded-md
-            ${props.className}
-        `}>
+        <button onClick={props.onClick} 
+            className={`
+                bg-gradient-to-r from-${colors}-400 to-${colors}-700
+                text-white px-4 py-2 rounded-md
+                ${props.className}
+            `}>
             {props.children}
         </button>
     )

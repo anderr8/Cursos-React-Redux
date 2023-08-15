@@ -1,22 +1,23 @@
 interface EntryProps {
     whatType?: 'text' | 'number'
-    putName: string
-    showName: any
-    age: string
-    showAge: number
+    show: any
+    wording: string
     forReading?: boolean
+    className?: string
+    changed?: (show: any) => void
 }
 
 export default function Entry(props: EntryProps) {
     return (
-        <div className="flex flex-col">
+        <div className={`flex flex-col ${props.className}`}>
             <label className="mb-4">
-                {props.putName}
+                {props.wording}
             </label>
             <input 
                 type={props.whatType ?? 'text'}
-                value={props.showName}
+                value={props.show}
                 readOnly={props.forReading}
+                onChange={e => props.changed?.(e.target.value)}
 
                 className={`
                     border border-red-500 rounded-lg

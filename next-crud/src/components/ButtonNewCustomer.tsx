@@ -6,7 +6,9 @@ interface ButtonProps {
 }
 
 export default function Button(props: ButtonProps) {
-    const colors = props.colors ?? 'gray'
+    // Não funcionou usando um acor padrão e nem as 3 colores
+    const color = props.color ?? 'gray'
+    console.log(color)
     return (
         <button onClick={props.onClick} 
             className={`

@@ -10,18 +10,12 @@ import Fill from '../components/Fill';
 
 
 export default function Home() {
-
-    // const repo: ClientRepositorio = new ColecaoClient()
     
-    const [client, setClient] = useState<Client>(Client.vazio())
-    // const [clients, setClients] = useState<Client[]>([])
-    const [visible, setVisible] = useState<'table' | 'form'>('table')
-    
-    const clients = [
-        new Client('Gigi', 27, '1'),
-        new Client('Anderson', 44, '2' ),
-        new Client('Jéssica', 34, '3'),
-        new Client('Fernanda', 42, '4'),
+    const clientes = [
+        new Cliente('Gigi', 27, '4'),
+        new Cliente('Anderson', 44, '1' ),
+        new Cliente('Jéssica', 34, '2'),
+        new Cliente('Fernanda', 42, '3')
     ]
 
     // useEffect(() => {

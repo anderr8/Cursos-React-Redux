@@ -12,6 +12,6 @@ export default props => (
         <p>Ganhar a Copa do Brasil.</p>
 
         <h2>Imprensa</h2>
-        <p>O time tem jogado muito bem.</p>
+        <p>O time tem jogado muito bem!</p>
     </div>
 )

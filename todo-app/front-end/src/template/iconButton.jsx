@@ -4,7 +4,7 @@ import If from './if'
 // export default props => {
 //     if(props.hide) {
 //         return null
-//     } else {
+//   } else {
 //         return (
 //             <button className={'btn btn-'+ props.style} 
 //                 onclick={props.onclick}>

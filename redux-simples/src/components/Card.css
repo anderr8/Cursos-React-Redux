@@ -1,0 +1,44 @@
+.Card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    /* background-color: red; */
+}
+
+.Card .Header {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: center;
+}
+
+.Card .Header .Title {
+    flex: 1;
+    padding: 5px;
+    /* background-color: brown; */
+}
+
+.Card .Content {
+    padding: 20px;
+}
+
+.Card.Red .Header { color: #fff; background: #540009; }
+.Card.Red .Content { background-color: #87000e; }
+
+.Card.Green .Header { color: #fff; background-color: #2e7d32; }
+.Card.Green .Content { background-color: #4caf50; }
+
+.Card.Blue .Header { color: #fff; background-color: #1565c0; }
+.Card.Blue .Content { background-color: #2196f3; }
+
+.Card.Orange .Header { color: #fff; background-color: #a94200; }
+.Card.Orange .Content { background-color: #b15419; }
+
+.Card.Chocolate .Header { color: #fff; background-color: #30180c; }
+.Card.Chocolate .Content { background-color: #6c3f2a; }
+
+.Card.Infinity .Header { color: #fff; background-color: #222831; }
+.Card.Infinity .Content { background-color: #4e535a; }
+
+.Card.Zambia .Header { color: #fff; background-color: #ff990e; }
+.Card.Zambia .Content { background-color: #ffad3e; }

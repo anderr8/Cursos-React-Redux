@@ -13,5 +13,9 @@ export default props => (
 
         <h2>Imprensa</h2>
         <p>O time tem jogado muito bem!</p>
+
+        <h2>Última Noticia</h2>
+        <p>Data 24/09/2023</p>
+        <p>São Paulo FC Campeão da Copa do Brasil!!!</p>
     </div>
 )

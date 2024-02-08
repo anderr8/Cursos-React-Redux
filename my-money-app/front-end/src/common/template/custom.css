@@ -1,0 +1,18 @@
+.main-footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+button {
+    margin-left: 5px;
+}
+
+.table-actions {
+    padding-left: 5px;
+    width: 150px;
+}
+
+.item {
+    border-left-width: 10px;
+}

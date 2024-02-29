@@ -1,0 +1,14 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "CadastroUsuario",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  },
+  "author": "ander",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  }
+}

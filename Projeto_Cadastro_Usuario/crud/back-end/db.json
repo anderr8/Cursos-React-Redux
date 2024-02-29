@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "nome": "Arthur Oliveira",
+      "email": "aoliveira@cod3r.com"
+    },
+    {
+      "id": "2",
+      "nome": "Jéssica da Vinci",
+      "email": "jdv@empresa.com"
+    },
+    {
+      "id": "4fef",
+      "name": "Jenifer Marques",
+      "email": "jenifer@empresa.com"
+    },
+    {
+      "id": "cffa",
+      "name": "Natasha Mendes",
+      "email": "natasha@empresa.com"
+    },
+    {
+      "id": "7127",
+      "name": "Paola",
+      "email": "paola@empresa.com"
+    },
+    {
+      "id": "8a40",
+      "name": "gigi",
+      "email": "gigi@heart.com"
+    }
+  ]
+}

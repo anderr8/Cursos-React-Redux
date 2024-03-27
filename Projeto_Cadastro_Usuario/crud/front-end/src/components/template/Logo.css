@@ -10,8 +10,3 @@ aside.logo img {
     width: 100%;
 }
 
-@media(max-width: 400px) {
-    aside.logo img {
-        width: 1400px;
-    }
-}
